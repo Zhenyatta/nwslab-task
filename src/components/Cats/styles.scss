@@ -1,0 +1,29 @@
+.catGrid,
+.categoriesFlexbox {
+  margin: 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.loadingDiv,
+.errorDiv {
+  text-align: center;
+}
+
+.loadMoreBtn {
+  background-color: white;
+  color: rgb(255, 188, 107);
+  border-radius: 5px;
+  border: 1px solid rgb(255, 188, 107);
+  padding: 50px;
+  font-weight: 700;
+}
+
+.loadMoreBtn:hover {
+  color: black;
+  border-color: black;
+  transform: scale(95%);
+  transition-duration: 2000ms;
+  cursor: pointer;
+}
